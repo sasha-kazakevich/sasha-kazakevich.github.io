@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #000 url(../img/bgHeaderTop_blue.png);
+}
+
+.slider {
+	width: 40%;
+	position: relative;
+	top: 200px;
+	margin: 0 35%;
+}
+.slider ul {
+	list-style: none;
+	width: 80%;
+}
+.slider ul li {
+	width: 90%;
+}
+.slider ul li img{
+	width: 100%;
+}
+.slider ul li {
+	-moz-box-shadow: -7px -7px 13px #2b2a2b;
+	-webkit-box-shadow: -7px -7px 13px #2b2a2b;
+	box-shadow: -7px -7px 13px #2b2a2b;
+}
+.slider .btnNext,
+.slider .btnPrev {
+	position: absolute;
+	cursor: pointer;
+	height: 32px;
+	width: 21px;
+}
+.slider .btnNext {
+	background: url(../img/btnSlider.png) 0 -82px no-repeat;
+	left: 600px;
+}
+.slider .btnNext:hover {
+	background: url(../img/btnSlider.png) 0 -122px no-repeat;
+}
+.slider .btnPrev {
+	background: url(../img/btnSlider.png) 0 0 no-repeat;
+	left: -200px;
+}
+.slider .btnPrev:hover {
+	background: url(../img/btnSlider.png) 0 -40px no-repeat;
+}
