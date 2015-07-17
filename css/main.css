@@ -3,6 +3,22 @@ body {
 	padding: 0;
 	background: #000 url(../img/bgHeaderTop_blue.png);
 }
+p {
+	font-family: 'Lobster', cursive;
+	font-size: 32px;
+	color: #fff;
+}
+.info p{
+	display: inline-block;
+	margin: 40px;
+}
+.info .skill {
+	margin-left: 30%;
+	font-size: 28px;
+}
+.portfolio {
+	text-align: center;
+}
 
 .slider {
 	width: 40%;
