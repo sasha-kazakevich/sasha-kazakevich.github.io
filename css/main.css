@@ -16,18 +16,21 @@ p {
 	margin-left: 30%;
 	font-size: 28px;
 }
+.portfolio {
+	border: 1px solid red;
+	height: 500px;
+}
 .slider {
 	width: 40%;
 	position: relative;
 	top: 200px;
-	margin: 0 35%;
+	margin: 0 30%;
 }
 .slider ul {
 	list-style: none;
-	width: 80%;
 }
 .slider ul li {
-	width: 90%;
+	width: 50%;
 }
 .slider ul li img{
 	width: 100%;
@@ -46,14 +49,14 @@ p {
 }
 .slider .btnNext {
 	background: url(../img/btnSlider.png) 0 -82px no-repeat;
-	left: 600px;
+	left: 670px;
 }
 .slider .btnNext:hover {
 	background: url(../img/btnSlider.png) 0 -122px no-repeat;
 }
 .slider .btnPrev {
 	background: url(../img/btnSlider.png) 0 0 no-repeat;
-	left: -200px;
+	left: -100px;
 }
 .slider .btnPrev:hover {
 	background: url(../img/btnSlider.png) 0 -40px no-repeat;
