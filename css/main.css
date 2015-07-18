@@ -16,10 +16,6 @@ p {
 	margin-left: 30%;
 	font-size: 28px;
 }
-.portfolio {
-	border: 1px solid red;
-	height: 500px;
-}
 .slider {
 	width: 40%;
 	position: relative;
@@ -60,4 +56,24 @@ p {
 }
 .slider .btnPrev:hover {
 	background: url(../img/btnSlider.png) 0 -40px no-repeat;
+}
+.roundabout-holder {
+	height: 300px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 650px;
+	border: 1px solid red;
+}
+
+.roundabout-moveable-item {
+	box-shadow: 1px 1px 10px #3E3E3E;
+	cursor: pointer;
+	height: 300px;
+	width: 460px;
+}
+
+.roundabout-moveable-item > img {
+	height: 100%;
+	width: 100%;
 }
