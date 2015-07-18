@@ -8,6 +8,9 @@ p {
 	font-size: 32px;
 	color: #fff;
 }
+.portfolio {
+	text-align: center;
+}
 .info p{
 	display: inline-block;
 	margin: 40px;
@@ -19,8 +22,8 @@ p {
 .slider {
 	width: 40%;
 	position: relative;
-	top: 200px;
-	margin: 0 30%;
+	top: 50px;
+	margin: 0 28%;
 }
 .slider ul {
 	list-style: none;
@@ -31,21 +34,17 @@ p {
 .slider ul li img{
 	width: 100%;
 }
-.slider ul li {
-	-moz-box-shadow: -7px -7px 13px #2b2a2b;
-	-webkit-box-shadow: -7px -7px 13px #2b2a2b;
-	box-shadow: -7px -7px 13px #2b2a2b;
-}
 .slider .btnNext,
 .slider .btnPrev {
 	position: absolute;
 	cursor: pointer;
 	height: 32px;
 	width: 21px;
+	top: 100px;
 }
 .slider .btnNext {
 	background: url(../img/btnSlider.png) 0 -82px no-repeat;
-	left: 670px;
+	left: 720px;
 }
 .slider .btnNext:hover {
 	background: url(../img/btnSlider.png) 0 -122px no-repeat;
@@ -63,16 +62,10 @@ p {
 	margin: 0 auto;
 	padding: 0;
 	width: 650px;
-	border: 1px solid red;
 }
-
 .roundabout-moveable-item {
-	box-shadow: 1px 1px 10px #3E3E3E;
-	cursor: pointer;
-	height: 300px;
-	width: 460px;
+	box-shadow: -7px -7px 13px #2b2a2b;
 }
-
 .roundabout-moveable-item > img {
 	height: 100%;
 	width: 100%;
