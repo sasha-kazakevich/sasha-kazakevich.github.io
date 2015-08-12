@@ -23,7 +23,7 @@ p {
 	width: 40%;
 	position: relative;
 	top: 50px;
-	margin: 0 26%;
+	margin: 0 auto;
 }
 .slider ul {
 	list-style: none;
@@ -49,14 +49,14 @@ p {
 }
 .slider .btnNext {
 	background: url(../img/btnSlider.png) 0 -82px no-repeat;
-	left: 710px;
+	left: 760px;
 }
 .slider .btnNext:hover {
 	background: url(../img/btnSlider.png) 0 -122px no-repeat;
 }
 .slider .btnPrev {
 	background: url(../img/btnSlider.png) 0 0 no-repeat;
-	left: -100px;
+	left: -150px;
 }
 .slider .btnPrev:hover {
 	background: url(../img/btnSlider.png) 0 -40px no-repeat;
