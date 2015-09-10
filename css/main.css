@@ -34,11 +34,6 @@ p {
 .slider ul li img{
 	width: 100%;
 }
-/*.slider ul li {
-	-moz-box-shadow: -7px -7px 13px #2b2a2b;
-	-webkit-box-shadow: -7px -7px 13px #2b2a2b;
-	box-shadow: -7px -7px 13px #2b2a2b;
-}*/
 .slider .btnNext,
 .slider .btnPrev {
 	position: absolute;
